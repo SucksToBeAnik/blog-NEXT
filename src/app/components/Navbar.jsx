@@ -9,7 +9,7 @@ function Navbar() {
             <span className="">Title</span>
         </div>
         <div className="col-span-1 flex items-center justify-center">
-            <Link href={'#'} className='btn rounded-full text-3xl'>+</Link>
+            <Link href={'#'} className='btn rounded-full text-3xl hover:scale-105 transition-all ease-in hover:shadow-lg'>+</Link>
         </div>
         <div className="col-span-4 md:col-span-2 flex items-center justify-end gap-2 md:gap-6">
             <Link href={'/'} className='nav-link'>Home</Link>
